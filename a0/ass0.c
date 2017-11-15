@@ -2,8 +2,8 @@
 Filename:			ass0.c
 Version:			1.0
 Purpose:			To allow the user to add Frames to the Animation, delete Frames from the Animation,
-					and run the Animation. Once run it displays each Frame in the animation every second
-					with the name of the frame and the time of the Animation being displayed.
+				and run the Animation. Once run it displays each Frame in the animation every second
+				with the name of the frame and the time of the Animation being displayed.
 **************************************************************************************************/
 #define _CRT_SECURE_NO_WARNINGS
 
@@ -35,12 +35,12 @@ void runFrames(struct Animation*);
 
 /***************************************************************************************************
 Function name:		main
-Purpose:			main function
-					Main menu for the Animation to allow the user to add/remove Frames from the animation
-					and run the Animation.
+Purpose:		main function
+			Main menu for the Animation to allow the user to add/remove Frames from the animation
+			and run the Animation.
 In parameters:		none
 Out parameters:		0 for sucessful execution
-Version:			1.0
+Version:		1.0
 ***************************************************************************************************/
 int main(void)
 {
@@ -70,10 +70,10 @@ int main(void)
 
 /***************************************************************************************************
 Function name:		initAnimation
-Purpose:			Initilizes the frames in the Animation structure to NULL
+Purpose:		Initilizes the frames in the Animation structure to NULL
 In parameters:		animation structure
 Out parameters:		none
-Version:			1.0
+Version:		1.0
 ***************************************************************************************************/
 void initAnimation(struct Animation* pA)
 {
@@ -82,10 +82,10 @@ void initAnimation(struct Animation* pA)
 
 /***************************************************************************************************
 Function name:		insertFrame
-Purpose:			Allows the user to add a new Frame to the Animation
+Purpose:		Allows the user to add a new Frame to the Animation
 In parameters:		animation structure
 Out parameters:		none
-Version:			1.0
+Version:		1.0
 ***************************************************************************************************/
 void insertFrame(struct Animation* pA) 
 {
@@ -145,10 +145,10 @@ void insertFrame(struct Animation* pA)
 }
 /***************************************************************************************************
 Function name:		deleteFrames
-Purpose:			Loops through and frees the all the memory associated with the Animation Frames
+Purpose:		Loops through and frees the all the memory associated with the Animation Frames
 In parameters:		animation structure
 Out parameters:		none
-Version:			1.0
+Version:		1.0
 ***************************************************************************************************/
 void deleteFrames(struct Animation* pA)
 {
@@ -170,10 +170,10 @@ void deleteFrames(struct Animation* pA)
 }
 /***************************************************************************************************
 Function name:		runFrames
-Purpose:			Prints out each every frame in the animation
+Purpose:		Prints out each every frame in the animation
 In parameters:		animation structure
 Out parameters:		none
-Version:			1.0
+Version:		1.0
 ***************************************************************************************************/
 void runFrames(struct Animation* pA)
 {
