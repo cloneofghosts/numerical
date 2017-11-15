@@ -1,8 +1,8 @@
 /***************************************************************************************************
-Filename:			ass1.cpp
-Version:			1.0
-Purpose:			To calculate a Maclaurin series of Oscillations up to 6 non-zero terms and
-					4 seconds after the Oscillations start
+Filename:	ass1.cpp
+Version:	1.0
+Purpose:	To calculate a Maclaurin series of Oscillations up to 6 non-zero terms and
+		4 seconds after the Oscillations start
 **************************************************************************************************/
 
 #include <math.h>
@@ -16,11 +16,11 @@ using namespace std;
 
 /***************************************************************************************************
 Function name:		main
-Purpose:			main function
-					Menu for the Maclaurin Series
+Purpose:		main function
+			Menu for the Maclaurin Series
 In parameters:		none
 Out parameters:		0 for sucessful execution
-Version:			1.0
+Version:		1.0
 ***************************************************************************************************/
 int main(void) {
 	int choice = 0, nonZero = 0;
@@ -65,10 +65,10 @@ int main(void) {
 
 /***************************************************************************************************
 Function name:		calculate
-Purpose:			Calculates the Maclaurin series for e^t * cos(t)
+Purpose:		Calculates the Maclaurin series for e^t * cos(t)
 In parameters:		number of non-zero terms, range that the function will be run
 Out parameters:		none
-Version:			1.0
+Version:		1.0
 ***************************************************************************************************/
 void calculate(int nonZero, double range) {
 	double time = 0.0;
