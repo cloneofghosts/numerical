@@ -3,7 +3,6 @@ Filename:			ass3.cpp
 Version:			1.0
 **************************************************************************************************/
 
-
 #define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
 #include <fstream>
@@ -16,11 +15,11 @@ void calculate(float*, float*, string);
 
 /***************************************************************************************************
 Function name:		main
-Purpose:			main function
-					Menu for the earthquake simulation
+Purpose:		main function
+			Menu for the earthquake simulation
 In parameters:		none
 Out parameters:		0 for sucessful execution
-Version:			1.0
+Version:		1.0
 ***************************************************************************************************/
 int main(void) {
 	//local variables
@@ -74,11 +73,11 @@ int main(void) {
 
 /***************************************************************************************************
 Function name:		calculate
-Purpose:			Calculates acceleration, building movement, and velocity based on the earthquake data
-					Outputs the results to a file
+Purpose:		Calculates acceleration, building movement, and velocity based on the earthquake data
+			Outputs the results to a file
 In parameters:		time, ground_movement, name of the file
 Out parameters:		none
-Version:			1.0
+Version:		1.0
 ***************************************************************************************************/
 void calculate(float* time, float* movement, string fileName) {
 	//local variables
