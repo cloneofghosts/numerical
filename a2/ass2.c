@@ -10,11 +10,11 @@ void floatConversion();
 
 /***************************************************************************************************
 Function name:		main
-Purpose:			main function
-					Menu for the floating point inspector
+Purpose:		main function
+			Menu for the floating point inspector
 In parameters:		none
 Out parameters:		0 for sucessful execution
-Version:			1.0
+Version:		1.0
 ***************************************************************************************************/
 int main() {
 	int choice = 0;
@@ -34,12 +34,12 @@ int main() {
 
 /***************************************************************************************************
 Function name:		floatConversion
-Purpose:			Converts the float into binary
-					Prints out the bits in Little-Endian or Big-Endian hex
-					Gets and prints the exponent and mantissa of the float
+Purpose:		Converts the float into binary
+			Prints out the bits in Little-Endian or Big-Endian hex
+			Gets and prints the exponent and mantissa of the float
 In parameters:		none
 Out parameters:		none
-Version:			1.0
+Version:		1.0
 ***************************************************************************************************/
 void floatConversion() {
 	//local variable declarations
